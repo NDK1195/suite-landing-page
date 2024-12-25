@@ -13,5 +13,221 @@
     <link rel="stylesheet" href="./src/output.css" />
     <title>Frontend Mentor | Suite landing page</title>
   </head>
-  <body></body>
+  <body class="grid min-h-dvh grid-rows-[auto,1fr,auto] bg-#FAF8F6">
+    <header
+      class="px-4 pb-[83px] pt-6 md:px-10 md:pb-20 md:pt-10 lg:pb-[67px] lg:pt-[50px] xl:px-0"
+    >
+      <nav class="mx-auto flex max-w-[1110px] items-center justify-between">
+        <img src="./assets/logo.svg" alt="logo" />
+        <button
+          class="flex h-12 w-[182px] items-center justify-center rounded-md border border-#172339 text-sm font-bold leading-6 tracking-[-0.14px] text-#172339 transition-colors hover:bg-#172339 hover:text-#FAF8F6 md:h-14 md:w-[219px] md:text-base md:leading-8 md:tracking-[-0.16px]"
+        >
+          Request Beta Access
+        </button>
+      </nav>
+    </header>
+
+    <main class="pd:mb-[493px] relative pb-[851px] lg:pb-[479px]">
+      <!-- hero -->
+      <section
+        class="relative mx-auto flex max-w-[1110px] flex-col gap-14 px-4 md:gap-[88px] md:px-10 lg:flex-row lg:items-center lg:justify-end lg:gap-24 xl:px-0"
+      >
+        <!-- content -->
+        <div>
+          <div
+            class="mx-auto max-w-[350px] md:absolute md:top-[88px] md:mx-0 md:max-w-full lg:left-10 lg:top-[103px] xl:left-0"
+          >
+            <h1
+              class="mb-8 text-[38px] leading-[44px] tracking-[-0.528px] text-#172339 md:mx-0 md:mb-10 md:max-w-[540px] md:text-[56px] md:leading-[64px] md:tracking-[-0.778px] lg:max-w-[635px] lg:text-[72px] lg:leading-[78px] lg:tracking-[-1px]"
+            >
+              A
+              <span class="relative font-bold"
+                >super solution
+                <!-- pattern curved -->
+                <img
+                  src="./assets/pattern-curved-line-1.svg"
+                  alt=""
+                  class="absolute -top-7 right-[10px] w-[151.472px] md:-top-11 md:w-[231.194px] lg:-top-14 lg:w-[287px]"
+                />
+                <!-- pattern curved --></span
+              >
+              for your
+              <span class="font-bold">business.</span>
+            </h1>
+            <p
+              class="mb-8 max-w-[350px] leading-7 tracking-[0.089px] text-#49566D md:mx-0 md:mb-10 lg:mb-[52px] lg:text-lg lg:leading-8 lg:tracking-[0.1px]"
+            >
+              Our marketing and sales automations help you scale your outreach
+              to get more leads for your company.
+            </p>
+            <button
+              class="flex h-[61px] w-[256px] items-center justify-center rounded-md bg-#172339 text-lg font-bold leading-8 tracking-[-0.18px] text-#FAF8F6 hover:bg-hover"
+            >
+              Request Beta Access
+            </button>
+          </div>
+
+          <!-- illustration -->
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="./assets/image-hero-portrait.png"
+            />
+            <img
+              src="./assets/image-hero-landscape.png"
+              alt="image hero"
+              class="mx-auto mt-14 md:ml-auto md:mr-0 md:mt-0 md:max-w-[281px] lg:max-w-full"
+            />
+          </picture>
+          <!-- illustration -->
+        </div>
+        <!-- content -->
+
+        <!-- statistics -->
+        <div
+          class="flex flex-col items-center gap-8 text-center md:flex-row md:justify-around md:gap-0 lg:flex-col lg:items-start lg:gap-[63px] lg:text-left"
+        >
+          <div>
+            <h3
+              class="text-5xl font-bold leading-[56px] text-#172339 lg:tracking-[-0.5px]"
+            >
+              2K+
+            </h3>
+            <p class="leading-[26px] tracking-[2.5px] text-#49566D">
+              COMPANIES
+            </p>
+          </div>
+          <div>
+            <h3
+              class="text-5xl font-bold leading-[56px] text-#172339 lg:tracking-[-0.5px]"
+            >
+              8
+            </h3>
+            <p class="leading-[26px] tracking-[2.5px] text-#49566D">
+              LANGUAGES
+            </p>
+          </div>
+          <div>
+            <h3
+              class="text-5xl font-bold leading-[56px] text-#172339 lg:tracking-[-0.5px]"
+            >
+              1.2M
+            </h3>
+            <p class="leading-[26px] tracking-[2.5px] text-#49566D">LEADS</p>
+          </div>
+        </div>
+        <!-- statistics -->
+      </section>
+      <!-- hero -->
+
+      <!-- testimonial -->
+      <section
+        class="absolute -bottom-[91px] w-full max-w-[1110px] md:-bottom-[464px] md:left-1/2 md:-translate-x-1/2 lg:-bottom-[265px]"
+      >
+        <div
+          class="relative rounded-[15px] bg-#172339 px-4 pb-16 pt-[338px] md:mx-10 md:px-[58px] md:pb-16 lg:px-[125px] lg:py-[88px] xl:mx-0"
+        >
+          <!-- image jeremy -->
+          <picture>
+            <source
+              media="(min-width: 1024px)"
+              srcset="./assets/image-jeremy-large.png"
+            />
+            <img
+              src="./assets/image-jeremy-small.png"
+              alt="image jeremy"
+              class="absolute -top-1/2 left-1/2 z-10 -translate-x-1/2 translate-y-1/2 md:-top-[55%] lg:-top-[45px] lg:left-[62px] lg:translate-x-0 lg:translate-y-0 xl:left-[112px]"
+            />
+          </picture>
+          <!-- image jeremy -->
+          <!-- pattern blur -->
+          <img
+            src="./assets/pattern-blur.svg"
+            alt="pattern blur"
+            class="absolute hidden w-[469px] md:-top-36 md:left-1/2 md:block md:-translate-x-1/2 lg:left-0 lg:top-20 lg:w-[538px] lg:translate-x-0 lg:translate-y-0"
+          />
+          <!-- pattern blur -->
+          <!-- content -->
+          <div
+            class="relative ml-auto mr-0 text-center lg:max-w-[350px] lg:text-left"
+          >
+            <!-- pattern curved -->
+            <img
+              src="./assets/pattern-curved-line-2.svg"
+              alt="pattern curved line 2"
+              class="absolute -top-[77px] left-1/2 w-[49.268px] -translate-x-1/2 lg:-left-[117px] lg:top-[77px] lg:w-[64.049px] lg:translate-x-0"
+            />
+            <!-- pattern curved -->
+            <h2
+              class="mb-10 text-[40px] leading-[48px] tracking-[-0.417px] text-#FAF8F6 lg:text-[48px] lg:leading-[56px] lg:tracking-[-0.5px]"
+            >
+              It just <span class="font-bold">works.</span>
+            </h2>
+            <p
+              class="mb-10 text-lg leading-8 tracking-[0.09px] text-#F3EDE7 lg:text-xl lg:leading-[35px] lg:tracking-[0.1px]"
+            >
+              “I really like how it is an all-in-one solution that handle many
+              of the tasks that you would normally need separate tools to do the
+              same job. This thing is a miracle worker.”
+            </p>
+            <p
+              class="text-lg font-bold leading-8 tracking-[-0.18px] text-#FAF8F6"
+            >
+              JEREMY ROBINSON
+            </p>
+            <p class="leading-[26px] tracking-[2.5px] text-#F3EDE7">
+              CMO, FYLO
+            </p>
+          </div>
+          <!-- content -->
+        </div>
+      </section>
+      <!-- testimonial -->
+    </main>
+
+    <footer
+      class="bg-#F3EDE7 pb-20 pt-[190px] md:px-10 md:pb-[72px] md:pt-[536px] lg:pt-[360px] xl:px-0"
+    >
+      <div
+        class="mx-auto flex max-w-[1110px] flex-col items-center gap-[33px] md:flex-row md:justify-between md:gap-0"
+      >
+        <img src="./assets/logo.svg" alt="logo" />
+        <div class="text-[15px] leading-8 tracking-[0.083px] text-#49566D">
+          Copyright - Suite
+        </div>
+        <div class="flex w-[116px] items-center justify-between">
+          <svg
+            width="20"
+            height="20"
+            xmlns="http://www.w3.org/2000/svg"
+            class="cursor-pointer fill-current text-#172339 transition-opacity hover:opacity-60"
+          >
+            <path
+              d="M18.896 0H1.104C.494 0 0 .494 0 1.104v17.793C0 19.506.494 20 1.104 20h9.58v-7.745H8.076V9.237h2.606V7.01c0-2.583 1.578-3.99 3.883-3.99 1.104 0 2.052.082 2.329.119v2.7h-1.598c-1.254 0-1.496.597-1.496 1.47v1.928h2.989l-.39 3.018h-2.6V20h5.098c.608 0 1.102-.494 1.102-1.104V1.104C20 .494 19.506 0 18.896 0Z"
+            />
+          </svg>
+          <svg
+            width="20"
+            height="17"
+            xmlns="http://www.w3.org/2000/svg"
+            class="cursor-pointer fill-current text-#172339 transition-opacity hover:opacity-60"
+          >
+            <path
+              d="M20 2.172a8.192 8.192 0 0 1-2.357.646 4.11 4.11 0 0 0 1.805-2.27 8.22 8.22 0 0 1-2.606.996A4.096 4.096 0 0 0 13.847.248c-2.65 0-4.596 2.472-3.998 5.037A11.648 11.648 0 0 1 1.392 1a4.109 4.109 0 0 0 1.27 5.478 4.086 4.086 0 0 1-1.858-.513c-.045 1.9 1.318 3.679 3.291 4.075a4.113 4.113 0 0 1-1.853.07 4.106 4.106 0 0 0 3.833 2.849A8.25 8.25 0 0 1 0 14.658a11.616 11.616 0 0 0 6.29 1.843c7.618 0 11.923-6.434 11.663-12.205A8.354 8.354 0 0 0 20 2.172Z"
+            />
+          </svg>
+          <svg
+            width="20"
+            height="20"
+            xmlns="http://www.w3.org/2000/svg"
+            class="cursor-pointer fill-current text-#172339 transition-opacity hover:opacity-60"
+          >
+            <path
+              d="M10 1.802c2.67 0 2.987.01 4.042.059 2.71.123 3.975 1.409 4.099 4.099.048 1.054.057 1.37.057 4.04 0 2.672-.01 2.988-.057 4.042-.124 2.687-1.387 3.975-4.1 4.099-1.054.048-1.37.058-4.041.058-2.67 0-2.987-.01-4.04-.058-2.717-.124-3.977-1.416-4.1-4.1-.048-1.054-.058-1.37-.058-4.041 0-2.67.01-2.986.058-4.04.124-2.69 1.387-3.977 4.1-4.1 1.054-.048 1.37-.058 4.04-.058ZM10 0C7.284 0 6.944.012 5.877.06 2.246.227.227 2.242.061 5.877.01 6.944 0 7.284 0 10s.012 3.057.06 4.123c.167 3.632 2.182 5.65 5.817 5.817 1.067.048 1.407.06 4.123.06s3.057-.012 4.123-.06c3.629-.167 5.652-2.182 5.816-5.817.05-1.066.061-1.407.061-4.123s-.012-3.056-.06-4.122C19.777 2.249 17.76.228 14.124.06 13.057.01 12.716 0 10 0Zm0 4.865a5.135 5.135 0 1 0 0 10.27 5.135 5.135 0 0 0 0-10.27Zm0 8.468a3.333 3.333 0 1 1 0-6.666 3.333 3.333 0 0 1 0 6.666Zm5.338-9.87a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4Z"
+            />
+          </svg>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
